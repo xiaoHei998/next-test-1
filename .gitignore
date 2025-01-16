@@ -1,0 +1,51 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Build output
+dist/
+build/
+out/
+*.local
+
+# dotenv environment variables file
+.env
+*.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+/.idea/
+/.vscode/
+/*.sublime-project
+/*.sublime-workspace
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# TypeScript
+*.tsbuildinfo
+
+# Ignore local test files
+*.spec.ts
+*.test.ts
+
+# Ignore specific file extensions
+*.tgz
+*.zip
+*.7z
+*.rar
+*.tar.gz
+
+# Other files to ignore
+*.bak
+*.swp
+*.tmp
